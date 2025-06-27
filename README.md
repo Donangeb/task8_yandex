@@ -93,5 +93,3 @@ user_yandex_disk/
 ├── .gitignore            # Игнорируемые файлы
 └── composer.json         # Зависимости
 ```
-
-MIT License 
