@@ -1,0 +1,18 @@
+{
+    "require": {
+        "arhitector/yandex": "dev-master",
+        "php-http/message-factory": "^1.1",
+        "php-http/guzzle7-adapter": "^1.1",
+        "vlucas/phpdotenv": "^5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "user_yandex_disk/src/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}

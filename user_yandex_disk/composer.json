@@ -1,0 +1,10 @@
+{
+    "require": {
+        "arhitector/yandex-disk": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+} 
