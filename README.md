@@ -14,7 +14,7 @@
 ### 1. Клонирование репозитория
 
 ```bash
-git clone <url-репозитория>
+git clone https://github.com/Donangeb/task8_yandex.git
 cd user_yandex_disk
 ```
 
