@@ -49,19 +49,7 @@ site_url="http://localhost"
    - **Права доступа**: Яндекс.Диск (чтение и запись)
 4. Скопируйте `Client ID` в файл `.env`
 
-### 5. Настройка веб-сервера
-
-#### Apache
-Убедитесь, что mod_rewrite включен и создайте `.htaccess` в папке `public/`:
-
-```apache
-RewriteEngine On
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ index.php [QSA,L]
-```
-
-### 6. Настройка прав доступа
+### 5. Настройка прав доступа
 
 ```bash
 chmod 755 uploads/
@@ -70,7 +58,7 @@ chmod 644 .env
 
 ## Использование
 
-1. Откройте в браузере: `http://localhost`
+1. Откройте в браузере: `свой домен сайта` (Пример `http://localhost`)
 2. Нажмите "Войти через Яндекс"
 3. Разрешите доступ к вашему Яндекс.Диску
 4. Используйте веб-интерфейс для работы с файлами
